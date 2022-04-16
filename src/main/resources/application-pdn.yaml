@@ -3,7 +3,7 @@ spring:
     mongodb:
       authentication-database: admin
       auto-index-creation: true
-      host: mongo
+      host: ${MONGO_HOST}
       port: 27017
       username: devuser
       password: devpassword
