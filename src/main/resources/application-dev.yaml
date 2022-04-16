@@ -1,0 +1,16 @@
+spring:
+  data:
+    mongodb:
+      authentication-database: admin
+      auto-index-creation: true
+      host: localhost
+      port: 27017
+      username: devuser
+      password: devpassword
+      database: springboot_chat
+logging:
+  level:
+    org:
+      mongodb:
+        core:
+          MongoTemplate: debug
