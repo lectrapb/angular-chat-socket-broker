@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.Random;
 
 @Controller
-@CrossOrigin(origins = "*", allowedHeaders = "*")
+@CrossOrigin(origins = {"http://localhost:4200", "*"}, allowedHeaders = "*")
 public class ChatController {
 
     @Autowired
